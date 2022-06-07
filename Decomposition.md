@@ -16,7 +16,7 @@ daha yönetilebilir bir sistem elde edilir.
 #### Decomposition Nasıl Kullanılır ?
 Büyük ve karmaşık fonksiyonlar daha küçük ve anlaşılabilir alt fonksiyonlara ayrılırlar.
 Daha küçük parçalar daha sonra incelenebilir ve çözülebilir veya üzerinde 
-çalışmak daha kolay olduğu için ayrı ayrı tasarlanabilir. Kodlar yazılırken, problem küçük alt parçalara ayrılır. Yani, bir büyük problem çözmek yerine problemi küçük parçalara bölünerek bu küçük problemler çözülülerek ilerlenir.
+çalışmak daha kolay olduğu için ayrı ayrı tasarlanabilir. Kodlar yazılırken, problem küçük alt parçalara ayrılır. Yani, bir büyük problem çözmek yerine problemi küçük parçalara bölünerek bu küçük problemler çözülerek ilerlenir.
 
 [//]: # (![Example]&#40;example.png&#41;)
 <img src="example.png" width="600">
