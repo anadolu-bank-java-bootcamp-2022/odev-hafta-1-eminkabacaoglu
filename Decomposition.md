@@ -2,7 +2,7 @@
 #### Decomposition Nedir ?
 
 Decomposition, karmaşık bir problemi veya sistemi, kavranması, anlaşılması, programlanması ve 
-bakımı daha kolay parçalara bölmektir.
+bakımı daha kolay parçalara bölmektir. Yani, karmaşık sorunların daha yönetilebilir parçalara bölünmesidir.
 
 ### 2- NEDEN:
 #### Decomposition Kullanım Amacı ?
@@ -16,7 +16,7 @@ daha yönetilebilir bir sistem elde edilir.
 #### Decomposition Nasıl Kullanılır ?
 Büyük ve karmaşık fonksiyonlar daha küçük ve anlaşılabilir alt fonksiyonlara ayrılırlar.
 Daha küçük parçalar daha sonra incelenebilir ve çözülebilir veya üzerinde 
-çalışmak daha kolay olduğu için ayrı ayrı tasarlanabilir.
+çalışmak daha kolay olduğu için ayrı ayrı tasarlanabilir. Kodlar yazılırken, problem küçük alt parçalara ayrılır. Yani, bir büyük problem çözmek yerine problemi küçük parçalara bölünerek bu küçük problemler çözülülerek ilerlenir.
 
 [//]: # (![Example]&#40;example.png&#41;)
 <img src="example.png" width="600">
