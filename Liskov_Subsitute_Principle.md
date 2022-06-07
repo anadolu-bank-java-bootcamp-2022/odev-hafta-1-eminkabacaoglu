@@ -1,5 +1,5 @@
-###1- NE: 
-####Liskov's Subsitute Principle Nedir ?
+### 1- NE: 
+#### Liskov's Subsitute Principle Nedir ?
 Liskov's Subsitute Principle SOLID prensiplerinden bir tanesidir.
 
 Liskov prensibine göre; kalıtım bozulmamalı, üst sınıf ile miras alan 
@@ -9,8 +9,8 @@ Bu yer değiştirme durumunda, sınıfa özel bir istisna kesinlikle oluşmamal�
 özellik miras alan alt sınıfta kullanılmalıdır. Eğer bir alt sınıf bu işlevlerden herhangi birini kullanmıyor ise
 Liskov'un bu prensibine aykırı bir durum söz konusudur. 
 
-###2- NEDEN:
-####Liskov's Subsitute Principle Kullanım Amacı ?
+### 2- NEDEN:
+#### Liskov's Subsitute Principle Kullanım Amacı ?
 Bu prensibe göre bir sınıfın alt sınıfları 
 kullanılmak için ekstra bir efor gerektirmemelidir. 
 Alt sınıflarda meydana gelen davranış değişiklikleri, 
@@ -19,14 +19,14 @@ Bu tip hatalı çalışmaların önüne geçmek için davranış değişikliği 
 her sınıfta değişiklik yapılması gerekmektedir. 
 Bu da ekstra çaba harcanarak her yeni sınıf için bu tip davranış değişikliklerinin kontrol edilmesi anlamına gelir.
 
-###3- NASIL:
-####Liskov's Subsitute Principle Nasıl Kullanılır ?
+### 3- NASIL:
+#### Liskov's Subsitute Principle Nasıl Kullanılır ?
 Liskov'un prensibine uygun bir uygulama ortaya koymak için alt sınıflarda 
 değişiklik gösterecek işlevleri ana sınıftan miras alacak şekilde ayrı alt sınıflara bölebiliriz. Böylelikle yeni 
 oluşacak alt sınıflar ihtiyaclarına göre bu sınıfları miras alarak kullansın ve kullanmayacakları işlevlerin sınıflarını 
 miras almasın. Bu şekilde Liskov'un prensibine uygun bir uygulama ortaya çıkmış olur.
 
-####Örnek:
+#### Örnek:
 Kuşları tanımlayıp üzerinde işlem yapacağımız ve miras alınacak sınıf Bird sınıfı olsun ve bu sınıfı içerisinde 2 adet 
 method bulunsun, eat() ve fly(). 
 Bu ana methoddan miras alarak oluşacak kuş alt sınıfları da Pigeon ve Chicken olsun.
